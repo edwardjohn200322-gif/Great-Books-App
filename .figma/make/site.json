@@ -1,0 +1,10 @@
+{
+  "description": "Explore a student’s Great Books portfolio featuring literary analyses, a favorite masterpiece, course reflections, and a personal profile in one organized experience.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
