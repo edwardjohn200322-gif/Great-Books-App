@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type MouseEvent } from "react";
 import { books, favoriteOverview, reflections, summary } from "./content";
+import studentPortrait from "./assets/d06f5.png?inline";
 
 function Icon({ name = "arrow", size = 20 }: { name?: string; size?: number }) {
   return (
@@ -301,7 +302,7 @@ export default function App() {
                   </span>
                 </div>
                 <div className="portrait-crop">
-                  <img src="/assets/d06f5.png" alt="John Edward M. Montanez reading a book" />
+                  <img src={studentPortrait} alt="John Edward M. Montanez reading a book" />
                 </div>
               </div>
               <div className="portrait-caption">
